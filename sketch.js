@@ -65,7 +65,7 @@ function draw() {
     //alienGroup.destroyEach();
     bulletGroup.destroyEach();
     score++;
-    alien.destroy();
+    
     //lien.visible=false;
   }
 
@@ -73,7 +73,7 @@ function draw() {
     bossHealth = bossHealth - 1;
   }
 
-  if(score > 2){
+  if(score > 499){
     
     textSize(20)
     text("Health: "+ bossHealth, 100,100);
